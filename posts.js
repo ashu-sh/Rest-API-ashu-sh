@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router(); //router Module
 const Data = require("./Collections/Data")
-// const Post = require("./Collections/Post")
+// const Post = require("./Collections/Post") ---------- this two collections are made for testing purposes
 // const List = require("./Collections/List")
 
 
