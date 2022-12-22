@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const port = 5000;
-const url = `mongodb+srv://Ashutosh:1GR8bbD3g8EB2GgX@cluster0.ms7wsze.mongodb.net/Student_Data?retryWrites=true&w=majority`
+const url = `mongodb+srv://Ashutosh:<Password>@cluster0.ms7wsze.mongodb.net/Student_Data?retryWrites=true&w=majority`
 const postsRoute = require('./posts');
 const bodyParser = require('body-parser');
 
